@@ -1,0 +1,22 @@
+@media screen and (max-width: 481px){
+
+
+  #image {
+    display: none;
+}
+
+.buttonHide {
+       position: absolute;
+       z-index: 2;
+}
+.buttonShow {
+       position: absolute;
+       z-index: 2;
+}
+.img {
+    position: absolute;
+}
+
+
+
+}
