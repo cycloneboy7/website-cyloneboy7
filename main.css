@@ -1,5 +1,4 @@
 @media screen and (max-width: 900px) {
-    body {background-color: pink;}
     #image {
         display: inline;
     }
