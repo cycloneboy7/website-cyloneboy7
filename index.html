@@ -3,6 +3,7 @@
  	<meta name="viewport" content="width=device-width, initial-scale=1" />
 <head>
     <link rel="stylesheet" type="text/css" href="main.css">
+	<script src="main.js"></script>
 </head>
  
 <body>
@@ -25,7 +26,6 @@
         	class="buttonHide">
        	 	Hide Image
     	</button></center>
-	-->
 	<form action="hello.html">
 		<label for="username">Username:</label><br>
 		<input type="text" id="username" minlength="8" maxlength="15" required><br>
@@ -36,8 +36,31 @@
 		<label for="password1">repeat password:</label><br>
 		<input type="text" id="password1" minlength="8" maxlength="15" required><br>
 		<input type="submit" id="submit>
-	</form>
-    <script src="main.js"></script>
+	</form> -->
+
+	<div class="center">
+		<h1>Login</h1>
+		<form method="post">
+			<div class="txt_field">
+				<input type="text" required>
+				<span></span>
+				<label>Username</label>
+			</div>
+			<div class="txt_field">
+				<input type="password" required>
+				<span></span>
+				<label>Password</label>
+			</div>
+			<div class="pass">Forget Password?</div>
+			<input type="submit" value="Login">
+			<div class="signup_link">
+				Not a Member <a href="#">Signup</a>
+			</div>
+
+		</form>
+	</div>
+
+
 </body>
  
 </html>
