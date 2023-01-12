@@ -1,13 +1,13 @@
-  #image {
+#image {
     display: none;
 }
 
 .buttonHide {
-       position: absolute;
+       position: inline;
        z-index: 2;
 }
 .buttonShow {
-       position: absolute;
+       position: inline;
        z-index: 2;
 }
 .img {
