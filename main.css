@@ -1,0 +1,16 @@
+@media screen and (max-width: 900px) {
+    #image {
+        display: inline;
+    }
+
+    .buttonHide {
+        position: static;
+    }
+    .buttonShow {
+        position: static;
+    }
+    .img {
+        position: relative;
+    }
+}
+
