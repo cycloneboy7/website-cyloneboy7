@@ -1,6 +1,3 @@
-@media screen and (max-width: 481px){
-
-
   #image {
     display: none;
 }
@@ -15,8 +12,4 @@
 }
 .img {
     position: absolute;
-}
-
-
-
 }
